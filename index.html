@@ -1,0 +1,80 @@
+<!Doctype html>
+<html>
+    <head>
+		<title>Jacob's Mad Libs</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <h1 class="title">lonely dance ... but not quite</h1>
+
+        Do my little <span id="feeling"></span> <span id="verb1"></span><br>
+        Performing for my only <span id="job"></span><br>
+        'Cause it's my kinda <span id="sg"></span><br>
+        My <span id="place"></span> is where my <span id="noun"></span> is<br>
+        I do my little <span id="feeling2"></span> <span id="verb11"></span><br>
+        I don't need you to <span id="verb2">verb</span><br>
+        And there's no way I'm <span id="verbing"></span><br>
+        It's like <span id="person"></span>'s watching<br>
+        As I do my little <span id="feeling3"></span> <span id="verb12"></span>.<br><br><br>
+ 
+
+        <h1 class="title">lonely dance</h1>
+        <br>
+        Do my little lonely dance <br>
+        Performing for my only fan <br>
+        'Cause it's my kinda party <br>
+        My room is where my heart is <br>
+        I do my little lonely dance <br>
+        I don't need you to understand <br>
+        And there's no way I'm stopping <br>
+        It's like nobody's watching <br>
+        As I do my little lonely dance.
+        
+        <script>
+            //Build the prompts and set them equal to variables so can use them later.
+           
+            var one = document.getElementById("feeling");
+            var two = document.getElementById("verb1");
+            var three = document.getElementById("job");
+            var four = document.getElementById("sg");
+            var five = document.getElementById("place");
+            var six = document.getElementById("noun");
+            var seven = document.getElementById("verb2");
+            var eight = document.getElementById("verbing");
+            var nine = document.getElementById("person");
+            var ten = document.getElementById("feeling2");
+            var eleven = document.getElementById("feeling3");
+            var twelve = document.getElementById("verb11");
+            var thirteen = document.getElementById("verb12");
+    
+
+            var prFeeling=prompt("name a feeling");
+            var prverb1=prompt("please give a verb or an action");
+            var prjob=prompt("write a job or career name");
+            var prsg=prompt("Name a type of social gathering (i know its a wierd question)");
+            var prplace = prompt("type a place");
+            var prnoun=prompt("give a noun");
+            var prverb2=prompt("give another verb");
+            var prverbing = prompt("give another verb, this time ending in 'ing'");
+            var prperson = prompt("Name any person");
+            //var prTermWacky = prompt("You favorite term for quirky.");
+
+            one.innerHTML = prfeeling;
+            two.innerHTML = prverb1;
+            three.innerHTML = prjob;
+            four.innerHTML = prsg;
+            five.innerHTML = prplace;
+            six.innerHTML = prnoun;
+            seven.innerHTML = prverb2;
+            eight.innerHTML = prverbing;
+            nine.innerHTML = prperson;
+            ten.innerHTML = prFeeling;
+            eleven.innerHTML = prFeeling;
+            twelve.innerHTML = prverb1;
+            thirteen.innerHTML = prverb1;
+
+        </script>
+
+    </body>
+</html>
